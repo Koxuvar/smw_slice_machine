@@ -521,10 +521,7 @@ var createCompsFromShapes = function()
         newCompLayer.property("Transform").property(1).setValue([0,0]);
 
 
-        curLayer.enabled = false;
-
-
-        // alert(curLayer.property("Transform").property(2).value);  
+        curLayer.enabled = false; 
     }
 
     app.endUndoGroup();
